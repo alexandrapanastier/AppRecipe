@@ -1,0 +1,29 @@
+POST http://localhost:5000/recipe
+Content-Type: application/json
+
+{
+    "title": "Fish with tomato sauce",
+    "description": "Fish with tomato sauce",
+    "ingredients": [
+        {
+            "name": "fish ",
+            "quantity": 1,
+            "unit": "kg"
+        },
+        {
+            "name": "tomato",
+            "quantity": 1,
+            "unit": "kg"
+        }
+    ],
+    "instructions": "Cook pasta, add tomato sauce, serve.",
+    "categories:": [
+        {   "name": "fish"          
+        }
+    ]
+}
+
+###
+
+GET http://localhost:5000/recipe
+Content-Type: application/json
