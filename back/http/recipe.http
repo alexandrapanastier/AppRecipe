@@ -17,9 +17,8 @@ Content-Type: application/json
         }
     ],
     "instructions": "Cook pasta, add tomato sauce, serve.",
-    "categories:": [
-        {   "name": "fish"          
-        }
+    "categories": [
+        "fish"
     ]
 }
 
